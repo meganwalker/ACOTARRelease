@@ -12,9 +12,10 @@ body {
 }
 
 body {
+  margin: 0;
   min-height: 100vh;
 
-  background-image: url("acotar-countdown-bg.png");
+  background-image: url("https://meganwalker.github.io/ACOTARRelease/acotar-countdown-bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
