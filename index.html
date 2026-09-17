@@ -1,7 +1,79 @@
-acotar-countdown/
-│
-├── index.html
-├── style.css
-├── countdown.js
-└── images/
-    └── acotar-countdown-bg.png
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ACOTAR Release Countdown</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="countdown-page">
+
+    <section class="hero">
+
+      <div class="moon">☾</div>
+
+      <p class="eyebrow">
+        SAME FIERCE SPIRITS. NEW HORIZONS.
+      </p>
+
+      <h1>
+        COUNTDOWN TO<br>
+        THE NEXT CHAPTER
+      </h1>
+
+      <div class="divider">✦</div>
+
+      <p class="release-date">
+        October 27, 2026
+      </p>
+
+      <p class="subtitle">
+        NEW WORLDS. FAMILIAR MAGIC.
+      </p>
+
+      <div class="countdown" id="countdown">
+
+        <div class="countdown-box">
+          <span class="number" id="days">00</span>
+          <span class="label">DAYS</span>
+        </div>
+
+        <div class="countdown-box">
+          <span class="number" id="hours">00</span>
+          <span class="label">HOURS</span>
+        </div>
+
+        <div class="countdown-box">
+          <span class="number" id="minutes">00</span>
+          <span class="label">MINUTES</span>
+        </div>
+
+        <div class="countdown-box">
+          <span class="number" id="seconds">00</span>
+          <span class="label">SECONDS</span>
+        </div>
+
+      </div>
+
+      <p id="released" class="released hidden">
+        ✦ THE WAIT IS OVER ✦
+      </p>
+
+      <p class="footer-text">
+        TO THE STARS WHO LISTEN — AND THE DREAMS THAT ARE ANSWERED.
+      </p>
+
+    </section>
+
+  </main>
+
+  <script src="countdown.js"></script>
+
+</body>
+</html>
